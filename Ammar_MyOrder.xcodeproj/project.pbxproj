@@ -10,7 +10,8 @@
 		780874BC27042E1F0015B0D6 /* Ammar_MyOrderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780874BB27042E1F0015B0D6 /* Ammar_MyOrderApp.swift */; };
 		780874BE27042E1F0015B0D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780874BD27042E1F0015B0D6 /* ContentView.swift */; };
 		780874C027042E210015B0D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 780874BF27042E210015B0D6 /* Assets.xcassets */; };
-		780874C327042E210015B0D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 780874C227042E210015B0D6 /* Preview Assets.xcassets */; };
+		780874E82705643D0015B0D6 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780874E72705643D0015B0D6 /* OrderView.swift */; };
+		780874F42706A2380015B0D6 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780874F32706A2380015B0D6 /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,8 +19,9 @@
 		780874BB27042E1F0015B0D6 /* Ammar_MyOrderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ammar_MyOrderApp.swift; sourceTree = "<group>"; };
 		780874BD27042E1F0015B0D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		780874BF27042E210015B0D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		780874C227042E210015B0D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		780874C427042E210015B0D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		780874E72705643D0015B0D6 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		780874F32706A2380015B0D6 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,8 @@
 		780874BA27042E1F0015B0D6 /* Ammar_MyOrder */ = {
 			isa = PBXGroup;
 			children = (
+				780874F32706A2380015B0D6 /* Order.swift */,
+				780874E72705643D0015B0D6 /* OrderView.swift */,
 				780874BB27042E1F0015B0D6 /* Ammar_MyOrderApp.swift */,
 				780874BD27042E1F0015B0D6 /* ContentView.swift */,
 				780874BF27042E210015B0D6 /* Assets.xcassets */,
@@ -64,7 +68,6 @@
 		780874C127042E210015B0D6 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				780874C227042E210015B0D6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -126,7 +129,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				780874C327042E210015B0D6 /* Preview Assets.xcassets in Resources */,
 				780874C027042E210015B0D6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				780874E82705643D0015B0D6 /* OrderView.swift in Sources */,
 				780874BE27042E1F0015B0D6 /* ContentView.swift in Sources */,
+				780874F42706A2380015B0D6 /* Order.swift in Sources */,
 				780874BC27042E1F0015B0D6 /* Ammar_MyOrderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
